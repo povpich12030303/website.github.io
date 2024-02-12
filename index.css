@@ -1,0 +1,127 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+#returnhome {
+  background: url(./img/unisver.jpg);
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+.logo {
+  font-size: 30px;
+  font-weight: bold;
+  color: red;
+}
+a {
+  margin-left: 20px;
+  color: #fff;
+}
+
+img {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  border: 2px solid #fff;
+}
+#cotenier {
+  margin-top: 3%;
+  align-items: center;
+}
+
+.text {
+  color: white;
+}
+
+.navbar {
+  background-color: #fff;
+  padding: 1rem 0rem;
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+  top: 0;
+  left: 0;
+  box-shadow: 0px 0px 20px 0px gray;
+}
+
+.univer {
+  text-align: center;
+  color: burlywood;
+  font-weight: bold;
+  font-size: 30px;
+}
+.main-section-container {
+  height: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.main-section-container h2 {
+  font-family: sans-serif;
+  font-weight: bold;
+  color: aqua;
+}
+.left {
+  margin-top: 8%;
+}
+#main {
+  align-items: center;
+}
+.card {
+  width: 100%;
+  transition: 5s;
+}
+.navbar-collapse {
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+}
+.navbar-collapse ul li a:hover {
+  color: white;
+  cursor: pointer;
+  transform: translateX(1.1);
+  transition: ease-out 0.5s;
+  background-color: black;
+  border-radius: 25px;
+  width: 80%;
+}
+.main-section-container img {
+  animation: mainimg 7s infinite;
+}
+span {
+  color: greenyellow;
+}
+@keyframes mainimg {
+  0% {
+    transform: translateY(-10px);
+  }
+  50% {
+    transform: translateY(70px);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
+}
+.foots {
+  background-color: #15243e;
+  width: 100%;
+}
+.foot {
+  color: white;
+  font-family: sans-serif;
+}
+.foot h3 {
+  font-weight: bold;
+}
+
+#footter {
+  text-align: center;
+}
+.icon {
+  font-size: 25px;
+}
